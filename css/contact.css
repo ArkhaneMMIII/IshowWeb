@@ -1,0 +1,140 @@
+
+
+* {
+    margin  : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    padding: 20px;
+    background: #000;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 30px;
+    
+}
+
+.menu li a {
+    font-family:  Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+
+}
+
+
+
+.banner {
+    background-color: #8800ff;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px; 
+}
+
+
+.banner-info{
+    text-align: center;
+}
+
+.bold-text{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+Main {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 60px;
+}
+
+Main h1 {
+    font-size: 49px; /* กำหนดขนาดตัวอักษรของตัวหัวเป็น 24px */
+    padding: 30px;
+}
+
+
+
+Main strong {
+    color: #00e244; /* กำหนดสีเขียวให้กับข้อความที่ใช้ tag <strong> */
+    font-size: 50px;
+    padding: 30px;
+}
+
+Main div {
+    padding: 20px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* กำหนดระยะห่างระหว่าง grid item */
+    
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+
+   .contact-info > * {
+    flex-grow: 1;
+}
+
+.contact-info img {
+    margin-right: 200px; /* กำหนดระยะห่างของรูปภาพ */
+}
+
+.icon-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-with-text img {
+    width: 50px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+    margin-right: 10px; /* ปรับระยะห่างระหว่างรูปภาพกับข้อความ */
+}
+
+.icon-with-text span {
+    text-align: center;
+    font-size: 23px;
+}
+
+
+
+
